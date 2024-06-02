@@ -17,4 +17,10 @@ public class Customer {
         this.firstname = firstname;
         this.lastname = lastname;
     }
+
+    public Customer(Long id,String firstname, String lastname) {
+        this.id = id;
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
 }
